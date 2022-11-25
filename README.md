@@ -2,7 +2,8 @@
 
 - 👋 Hi, I’m @Devcodino
 - 👀 I’m interested in Web & App Development 
-- 🌱 I’m currently learning React and next is Phytons
+- 🌱 I’m currently learning React and next is Phyton
+- 👌 I´m master PHP, Node.js, MySQL, JavaScript, HTML & CSS.
 - 💞️ I´m a lecturer on: Udemy
 - 📫 How to reach me: E-Mail
 
