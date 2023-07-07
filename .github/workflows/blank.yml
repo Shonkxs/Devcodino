@@ -15,9 +15,9 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN_TWO }}
-          base: repositories
+          base: header, repositories
           plugin_isocalendar: yes
           plugin_lines: yes
-          config_order: base.repositories, isocalendar, lines
+          config_order: base.header, base.repositories, isocalendar, lines
           
   
