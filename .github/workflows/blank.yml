@@ -14,8 +14,10 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: header
+          token: ${{ secrets.METRICS_TOKEN_TWO }}
+          base: repositories
           plugin_isocalendar: yes
-          config_order: base.header, isocalendar,
+          plugin_lines: yes
+          config_order: base.repositories, isocalendar, lines
+          
   
