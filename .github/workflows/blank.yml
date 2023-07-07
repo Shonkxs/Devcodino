@@ -19,5 +19,6 @@ jobs:
           plugin_isocalendar: yes
           plugin_languages: yes
           plugin_stars: yes
+          plugin_github_city: yes
           config_order: base.header, isocalendar, languages, stars
           
