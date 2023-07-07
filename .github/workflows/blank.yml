@@ -19,17 +19,9 @@ jobs:
           plugin_isocalendar: yes
           plugin_languages: yes
           plugin_stars: yes
-          plugin_city: yes
-          config_order: base.header, city, isocalendar, languages, stars
           plugin_skyline: yes
-          filename: metrics.plugin.skyline.city.svg
-          plugin_skyline_year: 2023
+          plugin_skyline_year: 2020
           plugin_skyline_frames: 6
           plugin_skyline_quality: 1
-          plugin_skyline_settings: |
-            {
-              "url": "https://honzaap.github.io/GithubCity?name=${login}&year=${year}",
-              "ready": "[...document.querySelectorAll('.display-info span')].map(span => span.innerText).includes('${login}')",
-              "wait": 4,
-              "hide": ".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child"
-            }
+          config_order: base.header, skyline, isocalendar, languages, stars
+  
