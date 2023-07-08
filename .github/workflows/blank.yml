@@ -21,6 +21,11 @@ jobs:
           plugin_languages: yes
           plugin_languages_ignored: html, css, hack, scss
           plugin_achievements: yes
+          plugin_achievements_only: >-
+            polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
+            scripter, packager, explorer, infographile, manager
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: X
           config_order: base.header, base.repositories, isocalendar, lines, languages, achievements
           
   
