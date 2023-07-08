@@ -19,7 +19,7 @@ jobs:
           plugin_isocalendar: yes
           plugin_lines: yes
           plugin_languages: yes
-          plugin_languages_ignored: html, css
+          plugin_languages_ignored: html, css, hack, scss
           config_order: base.header, base.repositories, isocalendar, lines, languages
           
   
