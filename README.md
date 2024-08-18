@@ -2,4 +2,4 @@
 
 <br>
 
-## <a href="https://devcodino.com" target="_blank"><- Check my Portfolio</a>
+## <a href="https://shonkxs.dev" target="_blank"><- Check my Portfolio</a>
